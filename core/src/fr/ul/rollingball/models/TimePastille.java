@@ -18,6 +18,6 @@ public class TimePastille extends Pastille
 
     public void effect()
     {
-        System.out.println("Time pastille!");
+        gameWorld.getGameScreen().incrementTimeRemaining();
     }
 }

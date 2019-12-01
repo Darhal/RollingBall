@@ -22,6 +22,7 @@ public class ScorePastille extends Pastille
 
     public void effect()
     {
-        System.out.println("Score pastille!");
+        gameWorld.getGameScreen().incrementPastillesNormal();
+        gameWorld.getGameScreen().addScore(1);
     }
 }

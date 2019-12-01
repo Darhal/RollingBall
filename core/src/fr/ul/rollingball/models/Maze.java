@@ -184,4 +184,8 @@ public class Maze
         curr_laby = ++curr_laby % 6;
     }
 
+    public void resetLaby()
+    {
+        curr_laby = 0;
+    }
 }

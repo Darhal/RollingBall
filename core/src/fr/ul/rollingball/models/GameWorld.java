@@ -65,10 +65,6 @@ public class GameWorld
                 iter.remove();
             }
         }
-
-        if (isVictory()){
-            changeLaby();
-        }
     }
 
     public World GetWorld() { return world; }
@@ -79,12 +75,23 @@ public class GameWorld
 
     public void changeLaby()
     {
+        maze.NextLaby();
+        loadLaby();
+    }
+
+    public void resetLaby()
+    {
+        maze.resetLaby();
+        loadLaby();
+    }
+
+    private void loadLaby()
+    {
         for (Pastille p : pastilles){
             p.dispose();
         }
 
         pastilles.clear();
-        maze.NextLaby();
         maze.loadLaby(pastilles);
         ball.GetBody().setLinearVelocity(0.f, 0.f);
         ball.GetBody().setTransform(maze.GetBallInitialPosition(), 0.f);
@@ -129,6 +136,11 @@ public class GameWorld
             @Override
             public void postSolve(Contact contact, ContactImpulse impulse) { }
         });
+    }
+
+    public GameScreen getGameScreen()
+    {
+        return screen;
     }
 
 }
