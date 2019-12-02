@@ -38,7 +38,7 @@ public class GameScreen extends ScreenAdapter
         textBatch = new SpriteBatch();
         gameState = new GameState();
         gameWorld =  new GameWorld(this);
-        gameState.setRemainingTime(60);
+        gameState.setRemainingTime(30);
         gameState.setState(GameState.STATE.EN_COURS);
         textCamera = new OrthographicCamera(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         textCamera.position.set(Gdx.graphics.getWidth()/2, Gdx.graphics.getHeight()/2,0);
@@ -58,7 +58,7 @@ public class GameScreen extends ScreenAdapter
     public void resize(int width, int height) {
         super.resize(width, height);
         textCamera = new OrthographicCamera(width, height);
-        textCamera.position.set(Gdx.graphics.getWidth()/2.f, Gdx.graphics.getHeight()/2.f, 0);
+        textCamera.position.set(width/2, height/2, 0);
 
         FreeTypeFontGenerator fgenerator = new FreeTypeFontGenerator(Gdx.files.internal("fonts/Comic_Sans_MS_Bold.ttf"));
         FreeTypeFontGenerator.FreeTypeFontParameter parameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
@@ -80,29 +80,45 @@ public class GameScreen extends ScreenAdapter
         Gdx.gl.glClearColor(1, 1, 1, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
-
-        if (gameState.IsGameInState(GameState.STATE.ARRET)){
-            Gdx.app.exit();
-            return;
-        }else if (!gameState.IsGameInState(GameState.STATE.EN_COURS)){
-            // textCamera.update();
-            // textBatch.setProjectionMatrix(textCamera.combined);
-            textBatch.begin();
-            renderIntermediate(gameBatch, textBatch);
-            textBatch.end();
-        }
-
         gameWorld.update(dt);
         gameBatch.begin();
         gameWorld.draw(gameBatch);
         gameBatch.end();
 
-        // textCamera.update();
-        // textBatch.setProjectionMatrix(textCamera.combined);
+        textCamera.update();
+        textBatch.setProjectionMatrix(textCamera.combined);
         textBatch.begin();
         textCamera.update();
         renderText(textBatch);
         textBatch.end();
+
+        if (gameState.IsGameInState(GameState.STATE.ARRET)){
+            Gdx.app.exit();
+            return;
+        }else if (!gameState.IsGameInState(GameState.STATE.EN_COURS)){
+            gameBatch.begin();
+            if (gameState.IsGameInState(GameState.STATE.PERTE)){
+                gameBatch.draw(TextureFactory.GetInstance().GetPerteTexture(),
+                        Gdx.graphics.getWidth()/4, Gdx.graphics.getWidth()/6,
+                        Gdx.graphics.getWidth()/2, Gdx.graphics.getHeight()/2);
+            }else if(gameState.IsGameInState(GameState.STATE.VICTOIRE)){
+                gameBatch.draw(TextureFactory.GetInstance().GetBravoTexture(),
+                        Gdx.graphics.getWidth()/4, Gdx.graphics.getWidth()/6,
+                        Gdx.graphics.getWidth()/2, Gdx.graphics.getHeight()/2);
+            }
+            gameBatch.end();
+
+            textCamera.update();
+            textBatch.setProjectionMatrix(textCamera.combined);
+            textBatch.begin();
+            String string = "Nombre de pastilles normales avalées : "+gameState.getNbPastilleNormalConsumed();
+            Vector2 off = getPositionOffset(font, string);
+            font.draw(textBatch, "Nombre de pastilles normales avalées : "+gameState.getNbPastilleNormalConsumed(),
+                    Gdx.graphics.getWidth()/2 - off.x / 2,
+                    Gdx.graphics.getHeight()/4
+            );
+            textBatch.end();
+        }
 
         long endTime = System.currentTimeMillis();
 
@@ -114,10 +130,12 @@ public class GameScreen extends ScreenAdapter
             }
         }
 
-        if (gameWorld.isVictory()){
-            SoundFactory.GetInstance().GetVictoirSound().play();
-            gameState.setState(GameState.STATE.VICTOIRE);
-            changeLaby();
+        if (gameState.IsGameInState(GameState.STATE.EN_COURS)){
+            if (gameWorld.isVictory()){
+                gameState.setState(GameState.STATE.VICTOIRE);
+                SoundFactory.GetInstance().GetVictoirSound().play();
+                changeLaby();
+            }
         }
     }
 
@@ -155,30 +173,19 @@ public class GameScreen extends ScreenAdapter
         gameState.setState(GameState.STATE.EN_COURS);
     }
 
-    public void renderIntermediate(SpriteBatch batch, SpriteBatch textBatch)
-    {
-        if (gameState.IsGameInState(GameState.STATE.PERTE)){
-            batch.draw(TextureFactory.GetInstance().GetPerteTexture(),
-                    0, 0,
-                    Gdx.graphics.getWidth()/2, Gdx.graphics.getHeight()/2);
-        }else if(gameState.IsGameInState(GameState.STATE.VICTOIRE)){
-            batch.draw(TextureFactory.GetInstance().GetBravoTexture(),
-                    0,0,
-                    Gdx.graphics.getWidth()/2, Gdx.graphics.getHeight()/2);
-        }
-
-        font.draw(textBatch, "Nombre de pastilles normales avalées : "+gameState.getNbPastilleNormalConsumed(), 0,0);
-    }
-
     public void renderText(SpriteBatch textBatch)
     {
-        font.draw(textBatch, "Temps restant : "+gameState.getRemainingTime(),
-                0,
-                0
+        String string = "Temps restant : "+gameState.getRemainingTime();
+        Vector2 off = getPositionOffset(font, string);
+        font.draw(textBatch, string,
+                Gdx.graphics.getWidth()/2 - off.x / 2,
+                Gdx.graphics.getHeight()
         );
+        string = "Score : "+gameState.getScore();
+        off = getPositionOffset(font, string);
         font.draw(textBatch, "Score : "+gameState.getScore(),
-                0,
-                0
+                Gdx.graphics.getWidth() - off.x,
+                Gdx.graphics.getHeight()
         );
     }
 
