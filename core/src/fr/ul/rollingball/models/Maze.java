@@ -61,6 +61,7 @@ public class Maze
         for (Body b : mur){
             world.GetWorld().destroyBody(b);
         }
+        mur.clear();
 
         masque = new Pixmap(Gdx.files.internal("images/Laby"+curr_laby+".png"));
         this.readObject(past);
@@ -69,7 +70,6 @@ public class Maze
 
     public void readObject(ArrayList<Pastille> past)
     {
-        System.out.println("(W: "+masque.getWidth()+", H: "+masque.getHeight()+")");
         float mh = masque.getHeight(); float mw = masque.getWidth();
         float sh = Gdx.graphics.getHeight(); float sw = Gdx.graphics.getWidth();
         for(int y = 0; y < mh; y++){
@@ -120,7 +120,6 @@ public class Maze
                     def.position.set(rpos.x, rpos.y);
                     Body body = world.GetWorld().createBody(def);
                     FixtureDef fdef = new FixtureDef();
-                    fdef.isSensor = false;
                     CircleShape shape = new CircleShape();
                     shape.setRadius(1.f);
                     fdef.shape = shape;
@@ -137,7 +136,6 @@ public class Maze
                     def.position.set(rpos.x, rpos.y);
                     Body body = world.GetWorld().createBody(def);
                     FixtureDef fdef = new FixtureDef();
-                    fdef.isSensor = false;
                     CircleShape shape = new CircleShape();
                     shape.setRadius(1.f);
                     fdef.shape = shape;

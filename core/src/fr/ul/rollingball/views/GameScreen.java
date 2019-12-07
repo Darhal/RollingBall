@@ -1,7 +1,7 @@
 package fr.ul.rollingball.views;
 
-import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.InputMultiplexer;
 import com.badlogic.gdx.ScreenAdapter;
 import com.badlogic.gdx.graphics.Camera;
 import com.badlogic.gdx.graphics.Color;
@@ -9,31 +9,51 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.GlyphLayout;
-import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
+import com.badlogic.gdx.input.GestureDetector;
 import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
 import com.badlogic.gdx.utils.Timer;
+import fr.ul.rollingball.controllers.GestureListener;
+import fr.ul.rollingball.controllers.KeyboardLisener;
 import fr.ul.rollingball.dataFactories.SoundFactory;
 import fr.ul.rollingball.dataFactories.TextureFactory;
 import fr.ul.rollingball.models.GameState;
 import fr.ul.rollingball.models.GameWorld;
+import fr.ul.rollingball.models.Pastille;
 
+import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
 public class GameScreen extends ScreenAdapter
 {
+    private static long iterationDuration = 1; // en ms
     private SpriteBatch gameBatch;
     private GameWorld gameWorld;
-    private static long iterationDuration = 1; // en ms
     private GameState gameState;
+
+    // Input:
+    private KeyboardLisener keyboardListener;
+    private GestureListener gestureListener;
+
     private SpriteBatch textBatch;
     private Camera textCamera;
     private BitmapFont font;
     private Timer.Task changeLabyTask;
 
+    private Box2DDebugRenderer debugRenderer;
+    private OrthographicCamera camera;
+
     public GameScreen()
     {
+        keyboardListener = new KeyboardLisener();
+        gestureListener = new GestureListener();
+        InputMultiplexer input_multi = new InputMultiplexer();
+        input_multi.addProcessor(keyboardListener);
+        input_multi.addProcessor(new GestureDetector(gestureListener));
+        Gdx.input.setInputProcessor(input_multi);
+
         gameBatch = new SpriteBatch();
         textBatch = new SpriteBatch();
         gameState = new GameState();
@@ -47,11 +67,17 @@ public class GameScreen extends ScreenAdapter
             @Override
             public void run() {
                 gameWorld.changeLaby();
-                gameState.setRemainingTime(60);
+                gameState.setRemainingTime(60 + gameState.getNbPastilleNormalConsumed());
                 gameState.setScore(0);
+                gameState.setNbPastilleNormalConsumed(0);
                 gameState.setState(GameState.STATE.EN_COURS);
+                keyboardListener.resetAcceleration();
             }
         };
+
+        debugRenderer = new Box2DDebugRenderer();
+        camera = new OrthographicCamera(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+        camera.position.set(Gdx.graphics.getWidth()/2.f, Gdx.graphics.getHeight()/2.f, 0);
     }
 
     @Override
@@ -72,31 +98,64 @@ public class GameScreen extends ScreenAdapter
         textBatch.setProjectionMatrix(textCamera.combined);
     }
 
+    public void update(float dt)
+    {
+        if (keyboardListener.isQuit()){
+            gameState.setState(GameState.STATE.ARRET);
+            return;
+        }
+
+        float accelX = Gdx.input.getAccelerometerX();
+        float accelY = Gdx.input.getAccelerometerY();
+        Vector2 force = new Vector2(accelY * 1000000.f, -accelX * 1000000.f);
+        force.add(keyboardListener.getAccelration());
+        force.add(gestureListener.getAccelration());
+        gameWorld.GetBall().ApplyForce(force);
+        gameWorld.GetWorld().step(dt, 6, 2);
+
+        for (Iterator<Pastille> iter = gameWorld.GetListePastilles().listIterator(); iter.hasNext(); ) {
+            Pastille p = iter.next();
+
+            if (p.IsEaten()){
+                p.dispose();
+                iter.remove();
+            }
+        }
+    }
+
     @Override
     public void render(float dt)
     {
         long startTime = System.currentTimeMillis();
 
-        Gdx.gl.glClearColor(1, 1, 1, 1);
+        Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
-        gameWorld.update(dt);
-        gameBatch.begin();
-        gameWorld.draw(gameBatch);
-        gameBatch.end();
+        this.update(dt);
 
-        textCamera.update();
-        textBatch.setProjectionMatrix(textCamera.combined);
-        textBatch.begin();
-        textCamera.update();
-        renderText(textBatch);
-        textBatch.end();
+        camera.update();
+        if (keyboardListener.isDebug()){
+            debugRenderer.render(gameWorld.GetWorld(), camera.combined);
+        }else {
+            gameBatch.begin();
+            gameBatch.setProjectionMatrix(camera.combined);
+            gameWorld.draw(gameBatch);
+            gameBatch.end();
+
+            textCamera.update();
+            textBatch.setProjectionMatrix(textCamera.combined);
+            textBatch.begin();
+            textCamera.update();
+            renderText(textBatch);
+            textBatch.end();
+        }
 
         if (gameState.IsGameInState(GameState.STATE.ARRET)){
             Gdx.app.exit();
             return;
         }else if (!gameState.IsGameInState(GameState.STATE.EN_COURS)){
             gameBatch.begin();
+            gameBatch.setProjectionMatrix(textCamera.combined);
             if (gameState.IsGameInState(GameState.STATE.PERTE)){
                 gameBatch.draw(TextureFactory.GetInstance().GetPerteTexture(),
                         Gdx.graphics.getWidth()/4, Gdx.graphics.getWidth()/6,
@@ -164,7 +223,7 @@ public class GameScreen extends ScreenAdapter
 
     public void incrementTimeRemaining()
     {
-        gameState.setRemainingTime(gameState.getRemainingTime() + 10);
+        gameState.setRemainingTime(gameState.getRemainingTime() + 5);
     }
 
     @Override
@@ -198,5 +257,15 @@ public class GameScreen extends ScreenAdapter
         GlyphLayout glyphLayout = new GlyphLayout();
         glyphLayout.setText(bitmapFont, value);
         return new Vector2(glyphLayout.width, glyphLayout.height);
+    }
+
+    public KeyboardLisener getKeyboardListener()
+    {
+        return keyboardListener;
+    }
+
+    public GestureListener getGestureListener()
+    {
+        return gestureListener;
     }
 }
