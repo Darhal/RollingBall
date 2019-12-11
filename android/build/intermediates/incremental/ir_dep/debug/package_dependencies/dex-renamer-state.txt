@@ -1,0 +1,4 @@
+#Fri Nov 15 15:50:58 CET 2019
+base.0=/home/profil/chida1u/RollingBall/android/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

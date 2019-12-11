@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="21"
+    build-mode="COLD"
+    density="xhdpi"
+    format="10"
+    ir-eligibility="COMPATIBLE"
+    plugin-version="3.4.1"
+    timestamp="1575039330397"
+    token="4069185654490970962"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="123" />
+    <task
+        name="verifier"
+        duration="293" />
+
+    <artifact
+        location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/profil/chida1u/RollingBall/android/build/intermediates/instant-run-apk/debug/android-debug.apk"
+        type="SPLIT_MAIN" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1575038356548"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/instant-run-apk/debug/android-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1575039135215"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/instant-run-apk/debug/android-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1575039330397"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/profil/chida1u/RollingBall/android/build/intermediates/instant-run-apk/debug/android-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf6809b5-7c21-439a-b5b8-e8e5b33bb116" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/badlogic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/badlogic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/fonts/Comic_Sans_MS_Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/fonts/Comic_Sans_MS_Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Bille2D.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Bille2D.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Bravo.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Bravo.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Intro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Intro.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Laby0.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Laby0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Laby1.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Laby1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Laby2.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Laby2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Laby3.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Laby3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Laby4.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Laby4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Laby5.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Laby5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Murs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Murs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Perte.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Perte.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/Piste.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Piste.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/badlogic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/badlogic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleNormale.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleNormale.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleNormale.pack" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleNormale.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleNormale.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleNormale.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleTaille.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleTaille.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleTaille.pack" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleTaille.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleTaille.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleTaille.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleTemps.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleTemps.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleTemps.pack" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleTemps.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleTemps.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleTemps.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/models/badlogic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/models/badlogic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/models/material.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/models/material.mtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/models/sphere.obj" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/models/sphere.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sounds/alerte.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/alerte.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sounds/collision.wav" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/collision.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sounds/pastille.wav" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/pastille.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sounds/perte.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/perte.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sounds/ptaille.wav" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/ptaille.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sounds/ptemps.wav" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/ptemps.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sounds/victoire.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/victoire.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/ic_launcher-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/ic_launcher-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/android/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-anydpi-v26/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-anydpi-v26/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/values/color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/values/color.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/fr/ul/rollingball/AndroidLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/fr/ul/rollingball/AndroidLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/src/fr/ul/rollingball/desktop/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/fr/ul/rollingball/desktop/DesktopLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Info.plist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Info.plist.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ios/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default-1024w-1366h@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default-1024w-1366h@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default-375w-667h@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default-375w-667h@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default-414w-736h@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default-414w-736h@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default-568h@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default-568h@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Default~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/app-store-icon-1024@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/app-store-icon-1024@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-app-icon-76@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-app-icon-76@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-app-icon-76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-app-icon-76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-notifications-icon-20@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-notifications-icon-20@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-notifications-icon-20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-notifications-icon-20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-pro-app-icon-83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-pro-app-icon-83.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-settings-icon-29@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-settings-icon-29@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-settings-icon-29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-settings-icon-29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-spotlight-icon-40@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-spotlight-icon-40@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-spotlight-icon-40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-spotlight-icon-40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-app-icon-60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-app-icon-60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-app-icon-60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-app-icon-60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-notification-icon-20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-notification-icon-20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-notification-icon-20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-notification-icon-20@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-icon-40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-icon-40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-icon-40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-icon-40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-settings-icon-29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-settings-icon-29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-settings-icon-29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-settings-icon-29@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/robovm.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ios/robovm.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/robovm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ios/robovm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/src/fr/ul/rollingball/IOSLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/ios/src/fr/ul/rollingball/IOSLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/fr/ul/rollingball/views/SplashScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/libraries/core_core_1_0.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1213" />
+    <option name="height" value="616" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RollingBall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RollingBall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="RollingBall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RollingBall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="RollingBall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RollingBall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="assets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="RollingBall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RollingBall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="desktop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="RollingBall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RollingBall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="desktop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RollingBall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RollingBall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="desktop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="desktop" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/assets" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DesktopLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.ul.rollingball.desktop.DesktopLauncher" />
+      <module name="desktop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/android/assets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.ul.rollingball.desktop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DesktopLauncher" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf6809b5-7c21-439a-b5b8-e8e5b33bb116" name="Default Changelist" comment="" />
+      <created>1576068553857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576068553857</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1213" height="999" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Captures" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24935733" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.22413793" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32988507" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/core/src/fr/ul/rollingball/views/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
