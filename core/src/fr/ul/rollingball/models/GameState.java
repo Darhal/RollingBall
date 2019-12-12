@@ -40,13 +40,8 @@ public class GameState
 
             remainingTime -= 1;
 
-            if (remainingTime < 10){
-                if (remainingTime <= 0){
-                    setState(STATE.PERTE);
-                    SoundFactory.GetInstance().GetPerteSound().play(MASTER_VOLUME);
-                }else{
-                    SoundFactory.GetInstance().GetAlerteSound().play(MASTER_VOLUME);
-                }
+            if (remainingTime < 10 && remainingTime > 0){
+                SoundFactory.GetInstance().GetAlerteSound().play(MASTER_VOLUME);
             }
         }
     }

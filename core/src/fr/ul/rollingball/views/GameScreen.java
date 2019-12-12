@@ -145,18 +145,6 @@ public class GameScreen extends ScreenAdapter
                 gameBatch.draw(TextureFactory.GetInstance().GetPerteTexture(),
                         Gdx.graphics.getWidth()/4, Gdx.graphics.getWidth()/4,
                         Gdx.graphics.getWidth()/2, Gdx.graphics.getHeight()/2);
-                Timer.Task resetLaby = new Timer.Task() {
-                    @Override
-                    public void run() {
-                        gameWorld.resetLaby();
-                        gameState.setRemainingTime(60);
-                        gameState.setScore(0);
-                        gameState.setNbPastilleNormalConsumed(0);
-                        gameState.setState(GameState.STATE.EN_COURS);
-                        keyboardListener.resetAcceleration();
-                    }
-                };
-                Timer.schedule(resetLaby, 3);
             }else if(gameState.IsGameInState(GameState.STATE.VICTOIRE)){
                 gameBatch.draw(TextureFactory.GetInstance().GetBravoTexture(),
                         Gdx.graphics.getWidth()/4, Gdx.graphics.getWidth()/4,
@@ -191,6 +179,24 @@ public class GameScreen extends ScreenAdapter
                 gameState.setState(GameState.STATE.VICTOIRE);
                 SoundFactory.GetInstance().GetVictoirSound().play(MASTER_VOLUME);
                 changeLaby();
+            }
+
+            if (gameState.getRemainingTime() <= 0){
+                gameState.setState(GameState.STATE.PERTE);
+                SoundFactory.GetInstance().GetPerteSound().play(MASTER_VOLUME);
+
+                Timer.Task resetLaby = new Timer.Task() {
+                    @Override
+                    public void run() {
+                        gameWorld.resetLaby();
+                        gameState.setRemainingTime(60);
+                        gameState.setScore(0);
+                        gameState.setNbPastilleNormalConsumed(0);
+                        gameState.setState(GameState.STATE.EN_COURS);
+                        keyboardListener.resetAcceleration();
+                    }
+                };
+                Timer.schedule(resetLaby, 3);
             }
         }
     }

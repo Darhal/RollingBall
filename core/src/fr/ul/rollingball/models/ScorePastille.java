@@ -16,12 +16,6 @@ public class ScorePastille extends Pastille
 
     public void draw(SpriteBatch batch)
     {
-        /*batch.draw(
-                TextureFactory.GetInstance().GetPastilleNormalTexture(),
-                this.GetPosition().x, this.GetPosition().y,
-                this.GetRayon(), this.GetRayon()
-        );*/
-
         TextureRegion currentFrame = (TextureRegion) TextureFactory.GetInstance().GetPastilleNormalAnimation().getKeyFrame(gameWorld.getElapsedTime());
         batch.draw(
                 currentFrame, this.GetPosition().x, this.GetPosition().y,
