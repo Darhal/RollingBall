@@ -74,12 +74,14 @@ public class GameWorld
 
     public void changeLaby()
     {
+        ball.SetTailleCurrent(1);
         maze.NextLaby();
         loadLaby();
     }
 
     public void resetLaby()
     {
+        ball.SetTailleCurrent(1);
         maze.resetLaby();
         loadLaby();
     }
