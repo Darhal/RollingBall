@@ -1,8 +1,10 @@
 package fr.ul.rollingball.models;
 
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
+import fr.ul.rollingball.dataFactories.SoundFactory;
 import fr.ul.rollingball.dataFactories.TextureFactory;
 
 public class SizePastille extends Pastille
@@ -30,6 +32,6 @@ public class SizePastille extends Pastille
 
         gameWorld.GetBall().SetTailleCurrent(s);
 
-        System.out.println("Size pastille!");
+        SoundFactory.GetInstance().GetPtailleSound().play(SoundFactory.MASTER_VOLUME);
     }
 }

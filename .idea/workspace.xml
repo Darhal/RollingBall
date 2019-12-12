@@ -2,43 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf6809b5-7c21-439a-b5b8-e8e5b33bb116" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/Ball3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.directory" beforeDir="false" afterPath="$PROJECT_DIR$/.directory" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/android.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/source/buildConfig/androidTest/debug/fr/ul/rollingball/test/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/source/buildConfig/androidTest/debug/fr/ul/rollingball/test/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/source/buildConfig/debug/fr/ul/rollingball/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/source/buildConfig/debug/fr/ul/rollingball/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/apk_list/debug/mainApkListPersistenceDebug/apk-list.gson" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/apk_list/debug/mainApkListPersistenceDebug/apk-list.gson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/out/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/out/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debugAndroidTest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debugAndroidTest/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/controllers/KeyboardLisener.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/controllers/KeyboardLisener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/dataFactories/SoundFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/dataFactories/SoundFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/dataFactories/TextureFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/dataFactories/TextureFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/Ball.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameState$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameState$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameState$STATE.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameState$STATE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameWorld$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameWorld$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameWorld.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/Maze.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/ScorePastille.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/ScorePastille.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/SizePastille.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/SizePastille.class" afterDir="false" />
@@ -46,20 +18,10 @@
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/views/GameScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/views/GameScreen$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/views/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/views/GameScreen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/dataFactories/SoundFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/dataFactories/SoundFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/dataFactories/TextureFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/dataFactories/TextureFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/Ball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/GameWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/GameWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/Maze.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/ScorePastille.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/ScorePastille.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/SizePastille.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/SizePastille.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/TimePastille.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/TimePastille.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/views/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/views/GameScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/desktop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/ios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ios/ios.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +74,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Android App.android">
+  <component name="RunManager" selected="Application.DesktopLauncher">
     <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="android" />
       <option name="DEPLOY" value="true" />
@@ -189,22 +151,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="196" key="GridCell.Tab.0.bottom" timestamp="1576161907026">
+    <state width="1874" height="196" key="GridCell.Tab.0.bottom" timestamp="1576163247092">
       <screen x="1919" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="196" key="GridCell.Tab.0.bottom/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576161907026" />
-    <state width="1874" height="196" key="GridCell.Tab.0.center" timestamp="1576161907026">
+    <state width="1874" height="196" key="GridCell.Tab.0.bottom/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576163247092" />
+    <state width="1874" height="196" key="GridCell.Tab.0.center" timestamp="1576163247092">
       <screen x="1919" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="196" key="GridCell.Tab.0.center/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576161907026" />
-    <state width="1874" height="196" key="GridCell.Tab.0.left" timestamp="1576161907026">
+    <state width="1874" height="196" key="GridCell.Tab.0.center/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576163247092" />
+    <state width="1874" height="196" key="GridCell.Tab.0.left" timestamp="1576163247092">
       <screen x="1919" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="196" key="GridCell.Tab.0.left/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576161907026" />
-    <state width="1874" height="196" key="GridCell.Tab.0.right" timestamp="1576161907026">
+    <state width="1874" height="196" key="GridCell.Tab.0.left/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576163247092" />
+    <state width="1874" height="196" key="GridCell.Tab.0.right" timestamp="1576163247092">
       <screen x="1919" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="196" key="GridCell.Tab.0.right/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576161907026" />
+    <state width="1874" height="196" key="GridCell.Tab.0.right/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576163247092" />
     <state width="1874" height="240" key="GridCell.Tab.1.bottom" timestamp="1576153543135">
       <screen x="1919" y="0" width="1920" height="1080" />
     </state>

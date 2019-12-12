@@ -3,6 +3,7 @@ package fr.ul.rollingball.models;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
+import fr.ul.rollingball.dataFactories.SoundFactory;
 import fr.ul.rollingball.dataFactories.TextureFactory;
 
 public class TimePastille extends Pastille
@@ -24,5 +25,6 @@ public class TimePastille extends Pastille
     public void effect()
     {
         gameWorld.getGameScreen().incrementTimeRemaining();
+        SoundFactory.GetInstance().GetPtempsSound().play(SoundFactory.MASTER_VOLUME);
     }
 }

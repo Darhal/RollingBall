@@ -71,7 +71,6 @@ public class GameScreen extends ScreenAdapter
             public void run() {
                 gameWorld.changeLaby();
                 gameState.setRemainingTime(60 + gameState.getNbPastilleNormalConsumed());
-                gameState.setScore(0);
                 gameState.setNbPastilleNormalConsumed(0);
                 gameState.setState(GameState.STATE.EN_COURS);
                 keyboardListener.resetAcceleration();
@@ -144,11 +143,23 @@ public class GameScreen extends ScreenAdapter
             gameBatch.begin();
             if (gameState.IsGameInState(GameState.STATE.PERTE)){
                 gameBatch.draw(TextureFactory.GetInstance().GetPerteTexture(),
-                        Gdx.graphics.getWidth()/4, Gdx.graphics.getWidth()/6,
+                        Gdx.graphics.getWidth()/4, Gdx.graphics.getWidth()/4,
                         Gdx.graphics.getWidth()/2, Gdx.graphics.getHeight()/2);
+                Timer.Task resetLaby = new Timer.Task() {
+                    @Override
+                    public void run() {
+                        gameWorld.resetLaby();
+                        gameState.setRemainingTime(60);
+                        gameState.setScore(0);
+                        gameState.setNbPastilleNormalConsumed(0);
+                        gameState.setState(GameState.STATE.EN_COURS);
+                        keyboardListener.resetAcceleration();
+                    }
+                };
+                Timer.schedule(resetLaby, 3);
             }else if(gameState.IsGameInState(GameState.STATE.VICTOIRE)){
                 gameBatch.draw(TextureFactory.GetInstance().GetBravoTexture(),
-                        Gdx.graphics.getWidth()/4, Gdx.graphics.getWidth()/6,
+                        Gdx.graphics.getWidth()/4, Gdx.graphics.getWidth()/4,
                         Gdx.graphics.getWidth()/2, Gdx.graphics.getHeight()/2);
             }
             gameBatch.end();

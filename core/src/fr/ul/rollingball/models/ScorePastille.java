@@ -4,6 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
+import fr.ul.rollingball.dataFactories.SoundFactory;
 import fr.ul.rollingball.dataFactories.TextureFactory;
 
 public class ScorePastille extends Pastille
@@ -32,5 +33,6 @@ public class ScorePastille extends Pastille
     {
         gameWorld.getGameScreen().incrementPastillesNormal();
         gameWorld.getGameScreen().addScore(1);
+        SoundFactory.GetInstance().GetPastilleSound().play(SoundFactory.MASTER_VOLUME);
     }
 }
