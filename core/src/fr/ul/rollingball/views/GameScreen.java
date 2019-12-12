@@ -19,12 +19,15 @@ import fr.ul.rollingball.controllers.GestureListener;
 import fr.ul.rollingball.controllers.KeyboardLisener;
 import fr.ul.rollingball.dataFactories.SoundFactory;
 import fr.ul.rollingball.dataFactories.TextureFactory;
+import fr.ul.rollingball.models.Ball3D;
 import fr.ul.rollingball.models.GameState;
 import fr.ul.rollingball.models.GameWorld;
 import fr.ul.rollingball.models.Pastille;
 
 import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
+
+import static fr.ul.rollingball.dataFactories.SoundFactory.MASTER_VOLUME;
 
 public class GameScreen extends ScreenAdapter
 {
@@ -104,23 +107,7 @@ public class GameScreen extends ScreenAdapter
             gameState.setState(GameState.STATE.ARRET);
             return;
         }
-
-        float accelX = Gdx.input.getAccelerometerX();
-        float accelY = Gdx.input.getAccelerometerY();
-        Vector2 force = new Vector2(accelY * 1000000.f, -accelX * 1000000.f);
-        force.add(keyboardListener.getAccelration());
-        force.add(gestureListener.getAccelration());
-        gameWorld.GetBall().ApplyForce(force);
-        gameWorld.GetWorld().step(dt, 6, 2);
-
-        for (Iterator<Pastille> iter = gameWorld.GetListePastilles().listIterator(); iter.hasNext(); ) {
-            Pastille p = iter.next();
-
-            if (p.IsEaten()){
-                p.dispose();
-                iter.remove();
-            }
-        }
+        gameWorld.update(dt);
     }
 
     @Override
@@ -129,7 +116,7 @@ public class GameScreen extends ScreenAdapter
         long startTime = System.currentTimeMillis();
 
         Gdx.gl.glClearColor(0, 0, 0, 1);
-        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT | GL20.GL_DEPTH_BUFFER_BIT);
 
         this.update(dt);
 
@@ -155,7 +142,6 @@ public class GameScreen extends ScreenAdapter
             return;
         }else if (!gameState.IsGameInState(GameState.STATE.EN_COURS)){
             gameBatch.begin();
-            gameBatch.setProjectionMatrix(textCamera.combined);
             if (gameState.IsGameInState(GameState.STATE.PERTE)){
                 gameBatch.draw(TextureFactory.GetInstance().GetPerteTexture(),
                         Gdx.graphics.getWidth()/4, Gdx.graphics.getWidth()/6,
@@ -192,7 +178,7 @@ public class GameScreen extends ScreenAdapter
         if (gameState.IsGameInState(GameState.STATE.EN_COURS)){
             if (gameWorld.isVictory()){
                 gameState.setState(GameState.STATE.VICTOIRE);
-                SoundFactory.GetInstance().GetVictoirSound().play();
+                SoundFactory.GetInstance().GetVictoirSound().play(MASTER_VOLUME);
                 changeLaby();
             }
         }

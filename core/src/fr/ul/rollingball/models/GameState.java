@@ -3,6 +3,8 @@ package fr.ul.rollingball.models;
 import com.badlogic.gdx.utils.Timer;
 import fr.ul.rollingball.dataFactories.SoundFactory;
 
+import static fr.ul.rollingball.dataFactories.SoundFactory.MASTER_VOLUME;
+
 public class GameState
 {
     public enum STATE
@@ -39,11 +41,11 @@ public class GameState
             remainingTime -= 1;
 
             if (remainingTime < 10){
-                // TODO: Play alerte sound
-                // SoundFactory.GetInstance().GetAlerteSound().play();
                 if (remainingTime <= 0){
                     setState(STATE.PERTE);
-                    SoundFactory.GetInstance().GetPerteSound().play();
+                    SoundFactory.GetInstance().GetPerteSound().play(MASTER_VOLUME);
+                }else{
+                    SoundFactory.GetInstance().GetAlerteSound().play(MASTER_VOLUME);
                 }
             }
         }

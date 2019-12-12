@@ -1,6 +1,8 @@
 package fr.ul.rollingball.models;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
 import fr.ul.rollingball.dataFactories.TextureFactory;
 
@@ -13,9 +15,15 @@ public class ScorePastille extends Pastille
 
     public void draw(SpriteBatch batch)
     {
-        batch.draw(
+        /*batch.draw(
                 TextureFactory.GetInstance().GetPastilleNormalTexture(),
                 this.GetPosition().x, this.GetPosition().y,
+                this.GetRayon(), this.GetRayon()
+        );*/
+
+        TextureRegion currentFrame = (TextureRegion) TextureFactory.GetInstance().GetPastilleNormalAnimation().getKeyFrame(gameWorld.getElapsedTime());
+        batch.draw(
+                currentFrame, this.GetPosition().x, this.GetPosition().y,
                 this.GetRayon(), this.GetRayon()
         );
     }

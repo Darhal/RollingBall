@@ -7,15 +7,17 @@ import com.badlogic.gdx.physics.box2d.*;
 import fr.ul.rollingball.dataFactories.TextureFactory;
 import fr.ul.rollingball.views.GameScreen;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class GameWorld
 {
     public static float DIMENSIONS[] = {80.f, 60.f};
     private GameScreen screen;
-    private Ball2D ball;
+    private Ball ball;
     private ArrayList<Pastille> pastilles;
     private World world;
     private Maze maze;
+    private float elapsedTime;
 
     public GameWorld(GameScreen screen)
     {
@@ -25,19 +27,43 @@ public class GameWorld
         this.screen = screen;
         this.createCollisionListener();
         maze.loadLaby(pastilles);
-        ball = new Ball2D(world, maze.GetBallInitialPosition());
+        ball = new Ball3D(world, maze.GetBallInitialPosition());
+        elapsedTime = 0.f;
     }
 
-    public Ball2D GetBall() { return ball; }
+    public Ball GetBall() { return ball; }
+
+    public void update(float dt)
+    {
+        elapsedTime += dt;
+
+        float accelX = Gdx.input.getAccelerometerX();
+        float accelY = Gdx.input.getAccelerometerY();
+        Vector2 force = new Vector2(accelY * 1000000.f, -accelX * 1000000.f);
+        force.add(screen.getKeyboardListener().getAccelration());
+        force.add(screen.getGestureListener().getAccelration());
+        ball.ApplyForce(force);
+        world.step(dt, 6, 2);
+
+        for (Iterator<Pastille> iter = pastilles.listIterator(); iter.hasNext(); ) {
+            Pastille p = iter.next();
+
+            if (p.IsEaten()){
+                p.dispose();
+                iter.remove();
+            }
+        }
+    }
 
     public void draw(SpriteBatch batch)
     {
         batch.draw(TextureFactory.GetInstance().GetPisteTexture(), 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         maze.draw(batch);
-        ball.draw(batch);
         for(Pastille p : pastilles){
             p.draw(batch);
         }
+
+        ball.draw(batch);
     }
 
     public World GetWorld() { return world; }
@@ -114,6 +140,11 @@ public class GameWorld
     public GameScreen getGameScreen()
     {
         return screen;
+    }
+
+    public float getElapsedTime()
+    {
+        return elapsedTime;
     }
 
 }

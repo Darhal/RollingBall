@@ -72,6 +72,7 @@ public class Maze
     {
         float mh = masque.getHeight(); float mw = masque.getWidth();
         float sh = Gdx.graphics.getHeight(); float sw = Gdx.graphics.getWidth();
+
         for(int y = 0; y < mh; y++){
             for (int x = 0; x < mw; x++){
                 int alpha_channel = masque.getPixel(x, y) & 0x000000ff;

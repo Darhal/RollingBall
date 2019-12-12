@@ -1,6 +1,7 @@
 package fr.ul.rollingball.models;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
 import fr.ul.rollingball.dataFactories.TextureFactory;
 
@@ -13,7 +14,11 @@ public class SizePastille extends Pastille
 
     public void draw(SpriteBatch batch)
     {
-        batch.draw(TextureFactory.GetInstance().GetPastilleTailleTexture(), this.GetPosition().x, this.GetPosition().y, this.GetRayon(), this.GetRayon());
+        TextureRegion currentFrame = (TextureRegion) TextureFactory.GetInstance().GetPastilleTailleAnimation().getKeyFrame(gameWorld.getElapsedTime());
+        batch.draw(
+                currentFrame, this.GetPosition().x, this.GetPosition().y,
+                this.GetRayon(), this.GetRayon()
+        );
     }
 
     public void effect()

@@ -2,104 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf6809b5-7c21-439a-b5b8-e8e5b33bb116" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/badlogic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/badlogic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/fonts/Comic_Sans_MS_Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/fonts/Comic_Sans_MS_Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Bille2D.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Bille2D.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Bravo.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Bravo.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Intro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Intro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Laby0.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Laby0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Laby1.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Laby1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Laby2.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Laby2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Laby3.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Laby3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Laby4.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Laby4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Laby5.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Laby5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Murs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Murs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Perte.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Perte.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/Piste.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/Piste.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/badlogic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/badlogic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleNormale.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleNormale.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleNormale.pack" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleNormale.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleNormale.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleNormale.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleTaille.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleTaille.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleTaille.pack" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleTaille.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleTaille.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleTaille.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleTemps.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleTemps.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleTemps.pack" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleTemps.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/images/pastilleTemps.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/images/pastilleTemps.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/models/badlogic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/models/badlogic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/models/material.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/models/material.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/models/sphere.obj" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/models/sphere.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/sounds/alerte.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/alerte.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/sounds/collision.wav" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/collision.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/sounds/pastille.wav" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/pastille.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/sounds/perte.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/perte.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/sounds/ptaille.wav" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/ptaille.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/sounds/ptemps.wav" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/ptemps.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/sounds/victoire.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sounds/victoire.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/ic_launcher-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/ic_launcher-web.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/android/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-anydpi-v26/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-anydpi-v26/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/drawable-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/values/color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/values/color.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/fr/ul/rollingball/AndroidLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/fr/ul/rollingball/AndroidLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/Ball3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.directory" beforeDir="false" afterPath="$PROJECT_DIR$/.directory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/generated/source/buildConfig/androidTest/debug/fr/ul/rollingball/test/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/source/buildConfig/androidTest/debug/fr/ul/rollingball/test/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/generated/source/buildConfig/debug/fr/ul/rollingball/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/source/buildConfig/debug/fr/ul/rollingball/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/apk_list/debug/mainApkListPersistenceDebug/apk-list.gson" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/apk_list/debug/mainApkListPersistenceDebug/apk-list.gson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/out/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/out/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debugAndroidTest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debugAndroidTest/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/src/fr/ul/rollingball/desktop/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/fr/ul/rollingball/desktop/DesktopLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Info.plist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Info.plist.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ios/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Default-1024w-1366h@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default-1024w-1366h@2x~ipad.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Default-375w-667h@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default-375w-667h@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Default-414w-736h@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default-414w-736h@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Default-568h@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default-568h@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Default.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Default@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Default@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default@2x~ipad.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Default~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Default~ipad.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/app-store-icon-1024@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/app-store-icon-1024@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-app-icon-76@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-app-icon-76@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-app-icon-76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-app-icon-76@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-notifications-icon-20@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-notifications-icon-20@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-notifications-icon-20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-notifications-icon-20@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-pro-app-icon-83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-pro-app-icon-83.5@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-settings-icon-29@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-settings-icon-29@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-settings-icon-29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-settings-icon-29@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-spotlight-icon-40@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-spotlight-icon-40@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-spotlight-icon-40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/ipad-spotlight-icon-40@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-app-icon-60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-app-icon-60@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-app-icon-60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-app-icon-60@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-notification-icon-20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-notification-icon-20@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-notification-icon-20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-notification-icon-20@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-icon-40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-icon-40@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-icon-40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-icon-40@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-settings-icon-29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-settings-icon-29@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-settings-icon-29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/AppIcon.appiconset/iphone-spotlight-settings-icon-29@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/data/Media.xcassets/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/data/Media.xcassets/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/robovm.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ios/robovm.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/robovm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ios/robovm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/src/fr/ul/rollingball/IOSLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/ios/src/fr/ul/rollingball/IOSLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/controllers/KeyboardLisener.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/controllers/KeyboardLisener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/dataFactories/SoundFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/dataFactories/SoundFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/dataFactories/TextureFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/dataFactories/TextureFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/Ball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameState$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameState$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameState$STATE.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameState$STATE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameWorld$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameWorld$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/GameWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/Maze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/ScorePastille.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/ScorePastille.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/SizePastille.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/SizePastille.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/TimePastille.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/models/TimePastille.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/views/GameScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/views/GameScreen$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/views/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/fr/ul/rollingball/views/GameScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/dataFactories/SoundFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/dataFactories/SoundFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/dataFactories/TextureFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/dataFactories/TextureFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/GameWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/GameWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/ScorePastille.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/ScorePastille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/SizePastille.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/SizePastille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/TimePastille.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/models/TimePastille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/fr/ul/rollingball/views/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/fr/ul/rollingball/views/GameScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/desktop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/ios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ios/ios.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,23 +69,25 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="3.7_FWVGA_slider_API_22" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/fr/ul/rollingball/views/SplashScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,61 +99,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="27" />
-    <option name="width" value="1213" />
-    <option name="height" value="616" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RollingBall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RollingBall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="RollingBall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RollingBall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="RollingBall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RollingBall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="assets" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="RollingBall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RollingBall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="desktop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="RollingBall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RollingBall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="desktop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RollingBall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RollingBall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="desktop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="desktop" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-    </panes>
+  <component name="ProjectId" id="1UsUuw4AoDNfRZL33Ph6xAM6npL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/android/assets" />
@@ -199,19 +112,37 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.android">
+    <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="android" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DesktopLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.ul.rollingball.desktop.DesktopLauncher" />
       <module name="desktop" />
@@ -232,6 +163,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -245,51 +188,47 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1213" height="999" extended-state="6" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Captures" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24935733" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.22413793" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32988507" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/fr/ul/rollingball/views/SplashScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1874" height="196" key="GridCell.Tab.0.bottom" timestamp="1576161907026">
+      <screen x="1919" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="196" key="GridCell.Tab.0.bottom/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576161907026" />
+    <state width="1874" height="196" key="GridCell.Tab.0.center" timestamp="1576161907026">
+      <screen x="1919" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="196" key="GridCell.Tab.0.center/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576161907026" />
+    <state width="1874" height="196" key="GridCell.Tab.0.left" timestamp="1576161907026">
+      <screen x="1919" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="196" key="GridCell.Tab.0.left/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576161907026" />
+    <state width="1874" height="196" key="GridCell.Tab.0.right" timestamp="1576161907026">
+      <screen x="1919" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="196" key="GridCell.Tab.0.right/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576161907026" />
+    <state width="1874" height="240" key="GridCell.Tab.1.bottom" timestamp="1576153543135">
+      <screen x="1919" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="240" key="GridCell.Tab.1.bottom/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576153543135" />
+    <state width="1874" height="240" key="GridCell.Tab.1.center" timestamp="1576153543135">
+      <screen x="1919" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="240" key="GridCell.Tab.1.center/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576153543135" />
+    <state width="1874" height="240" key="GridCell.Tab.1.left" timestamp="1576153543135">
+      <screen x="1919" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="240" key="GridCell.Tab.1.left/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576153543135" />
+    <state width="1874" height="240" key="GridCell.Tab.1.right" timestamp="1576153543135">
+      <screen x="1919" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="240" key="GridCell.Tab.1.right/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576153543135" />
+    <state x="639" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1576145044416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="639" y="347" key="com.intellij.ide.util.TipDialog/1919.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1576145044416" />
+    <state x="2543" y="238" key="run.anything.popup" timestamp="1576158658355">
+      <screen x="1919" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="238" key="run.anything.popup/1919.0.1920.1080/0.0.1920.1040@1919.0.1920.1080" timestamp="1576158658355" />
   </component>
   <component name="masterDetails">
     <states>

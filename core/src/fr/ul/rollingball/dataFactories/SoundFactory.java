@@ -8,6 +8,7 @@ public class SoundFactory {
 
     private Sound alerteSound,collisionSound,pastilleSound,perteSound,
             ptailleSound,ptempsSound,victoirSound;
+    public static float MASTER_VOLUME = 0.1f;
 
     public SoundFactory(){
         alerteSound = Gdx.audio.newSound(Gdx.files.internal("sounds/alerte.mp3"));

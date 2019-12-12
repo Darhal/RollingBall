@@ -1,6 +1,7 @@
 package fr.ul.rollingball.models;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.*;
 
@@ -8,7 +9,7 @@ public abstract class Ball
 {
     public static float rayons[] = { Gdx.graphics.getWidth() / 100,  Gdx.graphics.getWidth() / 50};
     private int current_taille;
-    private Body body;
+    protected Body body;
 
     public Ball(World world, Vector2 pos)
     {
@@ -52,6 +53,9 @@ public abstract class Ball
     public boolean isOut()
     {
         Vector2 pos = this.GetPosition();
-        return (pos.x < -this.GetRayon() || pos.x > Gdx.graphics.getWidth() - this.GetRayon()) && (pos.y < -this.GetRayon() || pos.y > Gdx.graphics.getHeight() - this.GetRayon());
+        return (pos.x < -this.GetRayon() || pos.x > Gdx.graphics.getWidth() + this.GetRayon())
+                || (pos.y < -this.GetRayon() || pos.y > Gdx.graphics.getHeight() + this.GetRayon());
     }
+
+    public abstract void draw(SpriteBatch batch);
 }
