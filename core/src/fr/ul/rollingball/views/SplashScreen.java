@@ -25,7 +25,6 @@ public class SplashScreen extends ScreenAdapter
         this.game = game;
         listeAffichage = new SpriteBatch();
         Timer.schedule(timerTask, 1);
-
     }
 
     @Override

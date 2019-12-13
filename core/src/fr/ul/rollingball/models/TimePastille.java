@@ -17,7 +17,7 @@ public class TimePastille extends Pastille
     {
         TextureRegion currentFrame = (TextureRegion) TextureFactory.GetInstance().GetPastilleTempsAnimation().getKeyFrame(gameWorld.getElapsedTime());
         batch.draw(
-                currentFrame, this.GetPosition().x, this.GetPosition().y,
+                currentFrame, this.GetPosition().x / 1024.f * gameWorld.getViewportDimensions().x, this.GetPosition().y / 720.f * gameWorld.getViewportDimensions().y,
                 this.GetRayon(), this.GetRayon()
         );
     }

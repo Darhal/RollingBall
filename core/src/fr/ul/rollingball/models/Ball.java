@@ -10,14 +10,16 @@ public abstract class Ball
     public static float rayons[] = { Gdx.graphics.getWidth() / 100,  Gdx.graphics.getWidth() / 50};
     private int current_taille;
     protected Body body;
+    protected GameWorld world;
 
-    public Ball(World world, Vector2 pos)
+    public Ball(GameWorld world, Vector2 pos)
     {
+        this.world = world;
         current_taille = 1;
         BodyDef def = new BodyDef();
         def.type = BodyDef.BodyType.DynamicBody;
         def.position.set(pos.x, pos.y);
-        body = world.createBody(def);
+        body = world.GetWorld().createBody(def);
         FixtureDef fdef = new FixtureDef();
         fdef.density = 1.f;
         fdef.friction = 0.25f;
@@ -53,8 +55,8 @@ public abstract class Ball
     public boolean isOut()
     {
         Vector2 pos = this.GetPosition();
-        return (pos.x < -this.GetRayon() || pos.x > Gdx.graphics.getWidth() + this.GetRayon())
-                || (pos.y < -this.GetRayon() || pos.y > Gdx.graphics.getHeight() + this.GetRayon());
+        return (pos.x < -this.GetRayon() || pos.x > world.getViewportDimensions().x + this.GetRayon())
+                || (pos.y < -this.GetRayon() || pos.y > world.getViewportDimensions().y + this.GetRayon());
     }
 
     public abstract void draw(SpriteBatch batch);

@@ -156,7 +156,7 @@ public class Maze
 
     public void draw(SpriteBatch sb)
     {
-        sb.draw(map, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+        sb.draw(map, 0, 0, world.getViewportDimensions().x, world.getViewportDimensions().y);
     }
 
     public void dispose()

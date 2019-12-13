@@ -7,7 +7,7 @@ import fr.ul.rollingball.dataFactories.TextureFactory;
 
 public class Ball2D extends Ball
 {
-    public Ball2D(World word, Vector2 pos)
+    public Ball2D(GameWorld word, Vector2 pos)
     {
         super(word, pos);
     }

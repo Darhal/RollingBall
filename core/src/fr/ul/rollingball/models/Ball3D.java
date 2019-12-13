@@ -1,5 +1,6 @@
 package fr.ul.rollingball.models;
 
+import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.assets.loaders.ModelLoader;
 import com.badlogic.gdx.graphics.*;
@@ -26,7 +27,7 @@ public class Ball3D extends Ball
     public Environment environment;
     private float angle;
 
-    public Ball3D(World word, Vector2 pos)
+    public Ball3D(GameWorld word, Vector2 pos)
     {
         super(word, pos);
         environment = new Environment();

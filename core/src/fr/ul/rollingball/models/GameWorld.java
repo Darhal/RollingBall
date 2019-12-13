@@ -27,7 +27,7 @@ public class GameWorld
         this.screen = screen;
         this.createCollisionListener();
         maze.loadLaby(pastilles);
-        ball = new Ball3D(world, maze.GetBallInitialPosition());
+        ball = new Ball3D(this, maze.GetBallInitialPosition());
         elapsedTime = 0.f;
     }
 
@@ -57,7 +57,7 @@ public class GameWorld
 
     public void draw(SpriteBatch batch)
     {
-        batch.draw(TextureFactory.GetInstance().GetPisteTexture(), 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+        batch.draw(TextureFactory.GetInstance().GetPisteTexture(), 0, 0, screen.getViewportDimensions().x, screen.getViewportDimensions().y);
         maze.draw(batch);
         for(Pastille p : pastilles){
             p.draw(batch);
@@ -147,6 +147,11 @@ public class GameWorld
     public float getElapsedTime()
     {
         return elapsedTime;
+    }
+
+    public Vector2 getViewportDimensions()
+    {
+        return screen.getViewportDimensions();
     }
 
 }
